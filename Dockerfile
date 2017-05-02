@@ -1,4 +1,4 @@
-FROM nginx1.13.0-alpine
+FROM nginx:1.13.0-alpine
 MAINTAINER Davin Bao <davin.bao@gmail.com>
 
 RUN set -x \
