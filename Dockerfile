@@ -30,7 +30,3 @@ EXPOSE 80
 
 STOPSIGNAL SIGQUIT
 
-ADD run.sh /
-RUN chmod +x /run.sh
-
-CMD ["/run.sh"]
